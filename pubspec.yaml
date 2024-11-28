@@ -1,0 +1,38 @@
+name: p1_projeto
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_preview: ^1.2.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/salada_caesar.jpg
+    - assets/images/gratinado_file.jpg
+    - assets/images/salada_tropical.jpg
+    - assets/images/fettuccine.jpg
+    - assets/images/risoto.jpg
+    - assets/images/polpetone.jpg
+    - assets/images/lasanha_file.jpg
+    - assets/images/carre_assado.jpg
+    - assets/images/suco_natural.jpg
+    - assets/images/refrigerante.jpg
+    - assets/images/agua.jpg
+    - assets/images/torta_holandesa.jpg
+    - assets/images/sorvete.jpg
+
